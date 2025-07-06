@@ -28,12 +28,13 @@ mac:
 dmg:
   artifactName: ${name}-${version}.${ext}
 linux:
+  icon: build/icon.png
+  category: Utility
   target:
     - AppImage
     - snap
     - deb
   maintainer: electronjs.org
-  category: Utility
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
